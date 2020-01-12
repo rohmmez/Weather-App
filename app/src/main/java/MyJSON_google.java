@@ -9,7 +9,7 @@ import java.net.URL;
 public class MyJSON_google
 {
     private static final String API1 = "https://maps.googleapis.com/maps/api/geocode/json?address=";
-    private static final String API2 = "&key=AIzaSyBawu-S2hCnPwyAFu0888ulgW2LklbD8kw";
+    private static final String API2 = ""; // Google geocoding API key
 
     public String loadJson (String add)
     {
