@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class MyJSON
 {
-    private static final String API ="https://api.forecast.io/forecast/fcc8d79dae85b12e892927e7b394023e/";
+    private static final String API =""; // Dark Sky API that you need to get
 
     public String loadJson (String loc)
     {
