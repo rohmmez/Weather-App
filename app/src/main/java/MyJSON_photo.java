@@ -9,8 +9,8 @@ import java.net.URL;
 public class MyJSON_photo
 {
 
-    private String key = "AIzaSyCn_IE6NM_ATjZ0j5vfXIFlyW-EpGs5gsU";
-    private String cx = "006431901905483214390:i3yxhoqkzo0";
+    private String key = ""; // Google Custom Search API key
+    private String cx = ""; // Search Engine ID
     public String loadJson(String query)
     {
         try
