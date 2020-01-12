@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class MyJSON
 {
-    private static final String API =""; // Dark Sky API that you need to get
+    private static final String API =""; // Dark Sky API key that you need to get
 
     public String loadJson (String loc)
     {
