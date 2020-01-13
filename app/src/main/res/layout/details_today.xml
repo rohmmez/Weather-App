@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:id="@+id/details_card1"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="80dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp">
+
+        <TextView
+            android:id="@+id/details_card1_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/weather_windy_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card1_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18.23 mph"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card1_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card1_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wind Speed"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card1_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card2"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/details_card1"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp">
+
+        <TextView
+            android:id="@+id/details_card2_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/gauge_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card2_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1001.60 mb"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card2_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card2_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pressure"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card2_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card3"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/details_card2"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp">
+
+        <TextView
+            android:id="@+id/details_card3_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/weather_pouring_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card3_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 mmph"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card3_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card3_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precipitation"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card3_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card4"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card1">
+
+        <TextView
+            android:id="@+id/details_card4_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/thermometer_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card4_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70℉"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card4_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card4_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card4_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/details_card5"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card2"
+        android:layout_toRightOf="@id/details_card4">
+
+        <TextView
+            android:id="@+id/details_card5_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/weather_sunny_big"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card5_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear day"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_below="@id/details_card5_tv1"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/details_card6"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card3"
+        android:layout_toRightOf="@id/details_card5">
+
+        <TextView
+            android:id="@+id/details_card6_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/water_percent_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card6_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="42%"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card6_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card6_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card6_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card7"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card4">
+
+        <TextView
+            android:id="@+id/details_card7_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/eye_outline_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card7_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.30 km"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card7_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card7_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visibility"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card7_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card8"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card5"
+        android:layout_toRightOf="@id/details_card7">
+
+        <TextView
+            android:id="@+id/details_card8_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/weather_fog_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card8_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card8_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card8_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cloud Cover"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card8_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card9"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rectangle_circle"
+        android:layout_marginTop="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_below="@id/details_card6"
+        android:layout_toRightOf="@id/details_card8">
+
+        <TextView
+            android:id="@+id/details_card9_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/earth_details"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card9_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="318.60 DU"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/details_card9_tv1">
+        </TextView>
+
+        <TextView
+            android:id="@+id/details_card9_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ozone"
+            android:textSize="15sp"
+            android:textColor="#777777"
+            android:layout_below="@id/details_card9_tv2"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

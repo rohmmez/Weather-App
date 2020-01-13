@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/card3_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11/15/2019"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/card3_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/weather_sunny_small"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="7dp"
+        android:layout_toRightOf="@id/card3_tv1">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/card3_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp"
+        android:layout_toRightOf="@id/card3_tv2">
+    </TextView>
+
+    <TextView
+        android:id="@+id/card3_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="76"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp"
+        android:layout_toRightOf="@id/card3_tv3"
+        android:layout_marginLeft="20dp">
+    </TextView>
+
+</RelativeLayout>

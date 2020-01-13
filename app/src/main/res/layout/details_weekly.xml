@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/weekly_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/rectangle_circle"
+        android:drawableLeft="@drawable/weather_sunny_big"
+        android:drawablePadding="10dp"
+        android:text="Fragment2"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="60dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingRight="15dp"
+        android:gravity="center_vertical">
+    </TextView>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/weekly_lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/weekly_tv">
+    </com.github.mikephil.charting.charts.LineChart>
+
+</RelativeLayout>
